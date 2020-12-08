@@ -1,0 +1,71 @@
+
+
+  
+  .form1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 1600px;
+    height: 600px;
+}
+
+
+  form {
+    width: 400px;
+    font-size: 16px;
+    font-style: Arial;
+    line-height : 35px;
+    display: inline;
+    
+}
+
+form label {
+   display: inline-block;
+    width: 150px;
+ 
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+#wrapper {
+  width: 1700px;
+  height: 1500px;
+ /* border: 1px solid black;*/
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+#contenedorform {
+  
+  width: 700px;
+  height: 700px;
+  float:left; /* add this */
+  /*border: 1px solid red;*/
+}
+#choosefiles{
+  margin-top: 10%;
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  /*border: 1px solid green;*/
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+
+.boton-adaptado {
+  width: 20%;
+  height: 55px;
+  background-color:#ef6363
+}
+.boton-adaptado1 {
+  width: 25%;
+  height: 52px;
+  background-color:#8a8a8a
+}
+
+
+
